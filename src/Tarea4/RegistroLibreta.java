@@ -5,7 +5,7 @@ public class RegistroLibreta {
 	private String Nombre;
 	private String Direccion;
 	private String Numerodetelefono;
-	private String Correoelectrónico;
+	private String Correoelectronico;
 
 
 	public RegistroLibreta() {
@@ -42,15 +42,24 @@ public class RegistroLibreta {
 	}
 
 
-	public String getCorreoelectrónico() {
-		return Correoelectrónico;
+	public String getCorreoelectronico() {
+		return  Correoelectronico;
 	}
 
 
-	public void setCorreoelectrónico(String correoelectrónico) {
-		Correoelectrónico = correoelectrónico;
+	public void setCorreoelectronico(String correoelectrónico) {
+		 Correoelectronico = correoelectrónico;
 	}
 
+	public String toString() {
+		StringBuilder str = new StringBuilder();
+		str.append("nombre: "+Nombre+"\n");
+		str.append("direccion: "+Direccion+"\n");
+		str.append("Telefono: "+Numerodetelefono+"\n");
+		str.append("correo: "+Correoelectronico+"\n");
+		return str.toString();
+		
+	}
 
 
 
