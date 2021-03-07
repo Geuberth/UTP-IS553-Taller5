@@ -16,11 +16,13 @@ public class LibretaDeDirecciones {
 	}
 	
 	public void  remove() {
-		
+		registros[actual] = null;
 	}
 	
 	public void  list() {
-		
+		for(int i = 0; i<actual;i++) {
+			System.out.println(registros[actual]);
+		}
 	}
 	
 	public void  update() {
