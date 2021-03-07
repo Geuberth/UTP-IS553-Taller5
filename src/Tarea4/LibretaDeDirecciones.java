@@ -15,17 +15,26 @@ public class LibretaDeDirecciones {
 			System.out.println("Ha excedido el numero de entradas");
 	}
 	
-	public void  remove() {
-		registros[actual] = null;
+	public void  remove(RegistroLibreta borrar) {
+		for(int i = 0; i<actual;i++) {
+			if(registros[i] == borrar) {
+				registros[i] = null;
+			}
+		}
+		
 	}
 	
 	public void  list() {
 		for(int i = 0; i<actual;i++) {
-			System.out.println(registros[actual]);
+			System.out.println(registros[i]);
 		}
 	}
 	
-	public void  update() {
-		
+	public void  update(RegistroLibreta buscar, RegistroLibreta reemplazar) {
+		for(int i = 0; i<actual;i++) {
+			if(registros[i] == buscar) {
+				registros[i] = reemplazar;
+			}
+		}
 	}
 }
