@@ -1,5 +1,11 @@
 package Tarea4;
 
+import ejercicio1taller4.RegistroLibreta;
+import ejercicio2Taller4.LibretaDeDirecciones;
+import ejercicio3Taller4.EstudianteInformatica;
+import ejercicio4Taller4.PairOfDice;
+import ejercicio5Taller4.Factura;
+
 public class Main {
 
 	public static void main(String[] args) {

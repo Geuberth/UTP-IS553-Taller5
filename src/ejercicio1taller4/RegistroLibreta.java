@@ -1,4 +1,4 @@
-package Tarea4;
+package ejercicio1taller4;
 
 public class RegistroLibreta {
 	

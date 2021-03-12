@@ -1,4 +1,4 @@
-package Tarea4;
+package ejercicio3Taller4;
 
 public class EstudianteInformatica extends Estudiante {
 	private String lenguajeFavorito;

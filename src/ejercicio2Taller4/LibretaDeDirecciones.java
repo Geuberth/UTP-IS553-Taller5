@@ -1,4 +1,6 @@
-package Tarea4;
+package ejercicio2Taller4;
+
+import ejercicio1taller4.RegistroLibreta;
 
 public class LibretaDeDirecciones {
 	private RegistroLibreta registros[];

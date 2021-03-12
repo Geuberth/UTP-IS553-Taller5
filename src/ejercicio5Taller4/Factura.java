@@ -1,4 +1,4 @@
-package Tarea4;
+package ejercicio5Taller4;
 
 public class Factura extends Precio {
 	private String Emisor;

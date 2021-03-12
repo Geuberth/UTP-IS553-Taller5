@@ -1,4 +1,4 @@
-package Tarea4;
+package ejercicio6Taller4;
 
 public interface Estadisticas <T> {
 	    T obtenerMinimo();
